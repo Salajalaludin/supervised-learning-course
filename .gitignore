@@ -1,0 +1,11 @@
+/raw_data_simulasi.txt
+/.analysis-packages/
+/.analysis-kernel/
+/.analysis-work/
+/.venv/
+/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+/report.html
+/report.pdf
+/report_files/

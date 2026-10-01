@@ -9,3 +9,5 @@ __pycache__/
 report.html
 report.pdf
 report_files/
+
+.serena/

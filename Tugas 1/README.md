@@ -1,6 +1,9 @@
 # Regression analysis
 
-report.ipynb compares OLS, WLS, GLSAR, and Ridge on simulated data.
+report.ipynb compares OLS, WLS, two-stage GLS, Ridge, and LASSO on simulated data.
+Iterative GLSAR is included as an additional exploration. Ridge and LASSO select
+alpha with five ordered validation folds inside the training set; LASSO also
+reports which coefficients become zero.
 The first 80% of rows form the training set; the remaining 20% form the test set.
 Keep the original row order.
 
